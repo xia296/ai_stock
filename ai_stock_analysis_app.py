@@ -11,7 +11,7 @@ from datetime import datetime
 # =============================== 配置区域 ===============================
 # 替换为您的 Gemini API Key
 # 商业应用中，此 Key 必须通过环境变量或安全配置服务加载，不应硬编码。
-GEMINI_API_KEY = "AIzaSyACM-VfXdEhyy4czmLl9h9nnlvF2268-ic" 
+GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 LLM_MODEL = "gemini-2.5-flash" 
 
 # 移除 Tushare Pro Token 配置
